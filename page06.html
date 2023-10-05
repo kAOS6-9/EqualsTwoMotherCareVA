@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Equals Two</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/auto_animate.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="wrapper">
+    
+<div id="page06"><img src="images/page06.png" alt=""/></div>
+    
+<div id="page06_copy01" class="bounce-in-bottom"><img src="images/page06_copy01.png" alt=""/></div>
+    
+<div id="page06_copy02" class="simpleani04"><img src="images/page06_copy02.png" alt=""/></div>
+    
+<div id="page06_copy03" class="bounce-in03" onClick="animation01()"><img src="images/page06_copy03.png" alt=""/></div>
+    
+<div id="page06_copy04" class="slide_animation02" onClick="animation02()"><img src="images/page06_copy04.png" alt=""/></div>
+	
+<a href="page06.html"><div id="page06_tab01"></div></a>
+<a href="page07.html"><div id="page06_tab02"></div></a>
+<a href="page08.html"><div id="page06_tab03"></div></a>
+    
+<a href="page04.html"><div id="page06_copy05"><img src="images/page06_copy05.png" alt=""/></div></a>
+
+  
+</div>
+    
+
+    
+<script>
+	
+function animation01()
+{
+document.getElementById("page06_copy04").style.display='block';
+document.getElementById("page06_copy04").style.opacity='1';
+setTimeout(function () {
+document.getElementById("page06_copy04").style.height='415px';
+}, 30);
+}
+	
+function animation02()
+{
+document.getElementById("page06_copy04").style.height='136px';
+setTimeout(function () {
+document.getElementById("page06_copy04").style.display='none';
+document.getElementById("page06_copy04").style.opacity='0';
+}, 800);
+}
+
+
+</script>
+    
+
+
+</body>
+</html>
