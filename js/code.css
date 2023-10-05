@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.code {color: #1b609a; background-color: #FFFFFF; border : 1px dashed #DDDDDD; margin : 10px 0px; padding : 10px; font-size : 12px; line-height : 17px; font-family : andale mono, lucida console, monospace; overflow : hidden; white-space:nowrap}
+.code:hover {overflow : auto}
+.code span {display : block; font-family: inherit; font-size: inherit; color : green}
+.code b {color: #610000; font-weight: normal}
+.code i {color: #cd0000; font-style: normal}
+
+
